@@ -1,0 +1,258 @@
+.hexagonDelaying {
+    position: relative;
+    width: 65px;
+    height: 65px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+.inner-contentDelaying {
+    position: absolute;
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
+
+.hexagonDelayingMoving {
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inner-contentDelayingMoving {
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+.sidebar {
+    border-radius: 5px;
+    box-shadow: 20px 0px 1px #245b5c,
+        20px -20px 40px #ffffff;
+}
+
+.vr {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.navLink {
+    position: relative;
+}
+
+
+.navLink::before {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: #e7e5e5;
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+.navLink:hover:before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.sideBarLink::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    height: 2px;
+    width: 30%;
+    border-radius: 25px;
+    transform: scaleX(0);
+    background: #e7e5e5;
+    transform-origin: right;
+    transition: transform 0.3s ease;
+}
+
+
+.hexagon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.inner-content {
+    position: absolute;
+    left: 2px;
+    right: 2px;
+    top: 2px;
+    bottom: 2px;
+    text-align: center;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+
+
+
+.buttons:hover {
+    box-shadow: 1px 1px 6px #447771,
+        -1px -1px 6px #447771;
+}
+
+
+
+
+
+.imgWrapper::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: -20px;
+    right: -20px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #c0bebe;
+    background-color: inherit;
+    border-radius: 8px;
+    transition-duration: 300ms;
+
+}
+
+
+
+.imgWrapper:hover:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    bottom: -16px;
+    right: -16px;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #c0bebe;
+    background-color: inherit;
+}
+
+
+
+
+
+/* Experience */
+
+/* MEDIUM ni pasidagi */
+.projects {
+    box-shadow: 1px 1px 5px #353232,
+        -1px -1px 5px #413d3d;
+}
+
+
+
+
+.projectImgLeft {
+    box-shadow: -3px 4px 6px rgb(20, 20, 20);
+}
+
+.projectImgLeft:hover {
+    box-shadow: -4px 5px 10px rgb(20, 20, 20);
+}
+
+.projectCommentRight {
+    box-shadow: 1px 2px 8px rgb(20, 20, 20);
+}
+
+
+
+
+
+
+
+
+.projectImgRight {
+    box-shadow: 3px 4px 6px rgb(20, 20, 20);
+}
+
+.projectImgRight:hover {
+    box-shadow: 4px 5px 9px rgb(20, 20, 20);
+
+}
+
+.projectCommentLeft {
+    box-shadow: -1px 2px 8px rgb(20, 20, 20);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    padding: 1rem 2rem;
+}
+
+
+.input-container input[type="text"] {
+    font-size: 14px;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    padding: 10px 4px 4px;
+    background-color: transparent;
+    outline: none;
+}
+
+.input-container .name-label {
+    font-size: 15px;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3 ease;
+    pointer-events: none;
+    border-bottom: 1px solid #ccc;
+}
+
+
+.input-container .email-label {
+    font-size: 15px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    color: #ccc;
+    transition: all 0.3 ease;
+    pointer-events: none;
+    border-bottom: 1px solid #ccc;
+}
