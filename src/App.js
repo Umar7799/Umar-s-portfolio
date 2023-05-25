@@ -7,7 +7,6 @@ import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Work from './components/Work';
 import { InfoProvider } from './Contexts/Context';
-import ProjectsTest from './components/ProjectsTest'
 
 // import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 

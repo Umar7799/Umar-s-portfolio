@@ -38,7 +38,7 @@ const Navbar = () => {
 
 
     return (
-        <div id='navbar' className='fixed w-full duration-500 rounded-b-md flex justify-between px-8 py-4 bg-[#405855] text-white bg-opacity-40 backdrop-blur-md rounded drop-shadow-lg shadow-md z-[100]'>
+        <div id='navbar' className='fixed w-full duration-500 rounded-b-md flex justify-between px-8 py-4 bg-black text-white bg-opacity-40 backdrop-blur-md rounded drop-shadow-lg shadow-md z-[100]'>
             <div className='hover:cursor-pointer'>
                 <Link to='main' smooth={true} offset={0} duration={500}>
                     <div class="hexagon bg-white">
