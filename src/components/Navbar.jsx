@@ -4,13 +4,12 @@ import '../components/Main.css'
 import { AiOutlineInstagram, AiOutlineGithub, AiOutlineLinkedin, AiOutlineFacebook, AiOutlineTwitter } from 'react-icons/ai'
 import { Link } from 'react-scroll'
 import { GetInfo } from '../Contexts/Context'
-
+import resumePdf from '../ResumeFolder/UmarResume.pdf'
 
 const Navbar = () => {
     const { getSidebarVal } = GetInfo()
     const [isOpen, setOpen] = useState(false)
     getSidebarVal(isOpen)
-
 
     const preventScrolling = () => {
         if (isOpen == true) {
@@ -21,7 +20,6 @@ const Navbar = () => {
         }
     }
     preventScrolling()
-
 
     let prevScrollpos = window.pageYOffset;
     window.onscroll = function () {
@@ -35,6 +33,11 @@ const Navbar = () => {
         prevScrollpos = currentScrollPos;
     }
 
+
+    const email = 'www.behruz00@mail.ru';
+    const subject = '';
+    const body = '';
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
 
     return (
@@ -53,7 +56,7 @@ const Navbar = () => {
                 <h1 className='navLink cursor-pointer'><Link to='recentWork' smooth={true} offset={-30} duration={500}>Recent Work</Link></h1>
                 <h1 className='navLink cursor-pointer'><Link to='work' smooth={true} offset={10} duration={500}>Expeirence</Link></h1>
                 <h1 className='navLink cursor-pointer'><Link to='getInTouch' smooth={true} offset={0} duration={500}>Get In Touch</Link></h1>
-                <h1 className='buttons cursor-pointer border border-[#c0bebe] rounded px-4 py-1 mt-[-4px] hover:shadow-xl duration-300'>Resume</h1>
+                <a href={resumePdf} target="_blank" rel="noopener noreferrer" className='buttons cursor-pointer border border-[#c0bebe] rounded px-4 py-1 mt-[-4px] hover:shadow-xl duration-300'>Resume</a>
             </div>
             <div className='sm:hidden absolute right-8 z-50'>
                 <Hamburger className='z-50' toggled={isOpen} duration={0.5} toggle={setOpen} />
@@ -65,22 +68,21 @@ const Navbar = () => {
                     <h1 className='navLink sideBarLink cursor-pointer'><Link to='work' scrollTo spy={true} smooth={true} offset={10} duration={500}>Expeirence</Link></h1>
                     <h1 className='navLink sideBarLink cursor-pointer'><Link to='getInTouch' scrollTo spy={true} smooth={true} offset={0} duration={500}>Get In Touch</Link></h1>
                     <div>
-                        <button className='buttons tracking-widest text-[18px] font-mono font-semibold border border-[#c0bebe] rounded py-3 px-6'>Resume</button>
+                        <a href={resumePdf} target="_blank" rel="noopener noreferrer" className='buttons tracking-widest text-[18px] font-mono font-semibold border border-[#c0bebe] rounded py-3 px-6'>Resume</a>
                     </div>
                 </div>
                 <div className='flex text-2xl space-x-6 justify-center pt-16'>
-                    <h1 className='cursor-pointer'><AiOutlineInstagram /></h1>
-                    <h1 className='cursor-pointer'><AiOutlineGithub /></h1>
-                    <h1 className='cursor-pointer'><AiOutlineLinkedin /></h1>
+                    <a target="_blank" rel="noreferrer" href='https://instagram.com/inakov_b?igshid=MzNlNGNkZWQ4Mg==' className='cursor-pointer'><AiOutlineInstagram /></a>
+                    <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799' className='cursor-pointer'><AiOutlineGithub /></a>
+                    <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/abdunosir-rakhmonov-3128a7240' className='cursor-pointer'><AiOutlineLinkedin /></a>
                     <h1 className='cursor-pointer'><AiOutlineFacebook /></h1>
                     <h1 className='cursor-pointer'><AiOutlineTwitter /></h1>
                 </div>
                 <div className='text-center mt-4 duration-300'>
-                    <h1 className='tracking-widest text-sm font-semibold cursor-pointer '>www.behruz00@mail.ru</h1>
+                    <a href={mailtoLink} className='tracking-widest text-sm font-semibold cursor-pointer '>www.behruz00@mail.ru</a>
                 </div>
             </div>
         </div>
-
     )
 }
 

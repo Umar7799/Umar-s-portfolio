@@ -2,22 +2,20 @@ import React from 'react'
 import '../components/Main.css'
 import { AiOutlineInstagram, AiOutlineGithub, AiOutlineLinkedin, AiOutlineFacebook, AiOutlineTwitter } from 'react-icons/ai'
 import { Link } from 'react-scroll'
-
 import { GetInfo } from '../Contexts/Context'
 
-
-
-
-// 
 
 const Main = () => {
     const { sidebarVal } = GetInfo()
 
+    const email = 'www.behruz00@mail.ru';
+    const subject = '';
+    const body = '';
+    const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     return (
         <div id='main' className='pt-[75px] h-[100vh] text-white bg-[#405855]'>
             <div className='mx-6 h-[85vh]'>
-
                 <div className={sidebarVal ? 'duration-500 blur-sm pl-10 sm:pl-18 md:pl-20 pr-20 pt-14' : 'duration-500 pl-4 md:pl-20 lg:pl-28 pr-15 md:pr-20 pt-12 md:pt-18 lg:pt-20'}>
                     <div className='text-[#fdfcfc]'>
                         <h1 className='tracking-widest md:text-[18px] font-mono font-semibold'>Hi, my name is</h1>
@@ -30,15 +28,13 @@ const Main = () => {
                         </p>
                         <button className='buttons text-[#ffffff] tracking-widest text-[18px] font-mono font-semibold border border-[#c0bebe] rounded py-3 px-6 mt-6 hover:shadow-2xl duration-300'><Link to='getInTouch' smooth={true} offset={0} duration={800}>Get in Touch</Link></button>
                     </div>
-
                 </div>
-
             </div>
             <div>
                 {/* EMAIL */}
                 <div className='vr hidden md:flex fixed justify-between lg:right-12 right-8 bottom-0 z-50 duration-300'>
                     <div className='mr-[13px] h-[210px] w-[1px] rounded bg-[#c0bebe]'></div>
-                    <h1 className='tracking-widest my-8 text-sm font-semibold cursor-pointer opacity-[0.7] hover:opacity-[1] hover:shadow-xl duration-300'>www.behruz00@mail.ru</h1>
+                    <a href={mailtoLink} className='tracking-widest my-8 text-sm font-semibold cursor-pointer opacity-[0.7] hover:opacity-[1] hover:shadow-xl duration-300'>www.behruz00@mail.ru</a>
                     <div className='mr-[13px] mb-0 h-[210px] w-[1px] rounded bg-[#c0bebe]'></div>
                 </div>
                 {/* SOCIAL MEDIA ICONS */}
@@ -46,7 +42,7 @@ const Main = () => {
                     <div className='absolute left-[11px] bottom-[470px] h-[190px] w-[1px] rounded bg-[#c0bebe]'></div>
 
                     <div className='flex absolute left-0 bottom-[415px]'>
-                        <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineInstagram /></h1>
+                        <a target="_blank" rel="noreferrer" href='https://instagram.com/inakov_b?igshid=MzNlNGNkZWQ4Mg==' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineInstagram /></a>
                         <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
                     </div>
                     <div className='flex absolute left-0 bottom-[365px]'>
@@ -65,13 +61,7 @@ const Main = () => {
                         <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineTwitter /></h1>
                         <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
                     </div>
-                    <div className='absolute left-[11px] bottom-0 h-[190px] w-[1px] rounded bg-[#c0bebe]'></div>
-
-
-                    {/* <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineGithub /></h1>
-                    <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineLinkedin /></h1>
-                    <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineFacebook /></h1>
-                    <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineTwitter /></h1> */}
+                    <div className='absolute left-[11px] bottom-0 h-[190px] w-[1px] rounded bg-[#c0bebe]'></div>                    
                 </div>
             </div>
         </div>
