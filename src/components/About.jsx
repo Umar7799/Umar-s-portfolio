@@ -42,6 +42,7 @@ const About = () => {
                             <ul>
                                 <li><span className='pr-1 text-xs'>➧</span>Tailwindcss</li>
                                 <li><span className='pr-1 text-xs'>➧</span>Bootstrap</li>
+                                <li><span className='pr-1 text-xs'>➧</span>Git</li>
                             </ul>
                         </div>
                     </div>
