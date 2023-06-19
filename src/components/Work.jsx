@@ -7,6 +7,7 @@ import '../components/Main.css'
 import { GetInfo } from '../Contexts/Context'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { FiExternalLink } from 'react-icons/fi'
+import DynamicTable from '../picss/DynamicTable.png'
 
 const Work = () => {
     const { sidebarVal } = GetInfo()
@@ -24,6 +25,34 @@ const Work = () => {
 
 
             {/* FIRST */}
+            <div className='hidden md:flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
+                <div className=' flex justify-end relative mt-10'>
+                    <img src={DynamicTable} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+
+                    <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
+                        <div>
+                            <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">Dynamic Table</h3>
+                            <p class="projectCommentLeft  bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">Dynamic table. Fetching data from google books api. Find your book with with searching by its name or author. And other books by the same author.</p>
+                        </div>
+                        <div>
+                            {/* TECHNOLOGIES */}
+                            <ul className='flex space-x-4 font-semibold pl-2'>
+                                <li>Javascript</li>
+                                <li>css</li>
+                                <li>React</li>
+                                <li>Tailwindcss</li>
+                            </ul>
+                            {/* ICONS */}
+                            <ul className='flex text-2xl space-x-5 pl-2 pt-4 '>
+                                <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/dynamic-table' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href='https://dynamic-table-recruitment-task.netlify.app/' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* SECOND */}
             <div className='hidden md:flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                 <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
                     <img src={CrptoCurrency} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
@@ -52,7 +81,8 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            {/* SECOND */}
+
+            {/* THIRD */}
             <div className='hidden md:flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
                 <div className=' flex justify-end relative mt-10'>
                     <img src={HelpToDev} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
@@ -80,8 +110,8 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            
-            {/* THIRD */}
+
+            {/* FOURTH */}
             <div className='hidden md:flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                 <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
                     <img src={JsonFormatter} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
@@ -109,7 +139,7 @@ const Work = () => {
                 </div>
             </div>
 
-            {/* FOURTH */}
+            {/* FIFTH */}
             <div className='hidden md:flex px-24 lg:px-32 lg:py-12 md:py-24 duration-500'>
                 <div className=' flex justify-end relative mt-10'>
                     <img src={Dashboard} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
@@ -137,8 +167,6 @@ const Work = () => {
                     </div>
                 </div>
             </div>
-            
-
 
 
 
@@ -146,8 +174,31 @@ const Work = () => {
             <div className='md:hidden  bg-[#405855] duration-500 pb-20'>
 
                 {/* FIRST */}
+                <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
+                    <img src={DynamicTable} className='rounded-md h-full' />
+                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
+                        <h1 class="text-2xl px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dynamic Table</h1>
+                        <p class="px-5 pt-6">Dynamic table. Fetching data from google books api. Find your book with with searching by its name or author. And other books by the same author.</p>
+                    </div>
+                    <div className='absolute sm:bottom-5 bottom-6 left-8'>
+                        {/* TECHNOLOGIES */}
+                        <ul className='flex space-x-4 font-semibold pr-8'>
+                            <li>Javascript</li>
+                            <li>css</li>
+                            <li>React</li>
+                            <li>Tailwindcss</li>
+                        </ul>
+                        {/* ICONS */}
+                        <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
+                            <li><a href='https://github.com/Umar7799/dynamic-table' target="_blank" rel="noreferrer" className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a href='https://dynamic-table-recruitment-task.netlify.app/' target="_blank" rel="noreferrer" className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                {/* SECOND */}
                 <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <img src={CrptoCurrency} className='rounded-md h-full' />
+                    <img src={CrptoCurrency} alt='Image' className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
                         <p class="px-5 pt-6">Crypto currency react application. With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
@@ -163,15 +214,13 @@ const Work = () => {
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></h1></li>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></h1></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Crypto-currency.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://legendary-sunflower-e62bae.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
 
-
-
-                {/* SECOND */}
+                {/* THIRD */}
                 <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <img src={HelpToDev} className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
@@ -188,14 +237,13 @@ const Work = () => {
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></h1></li>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></h1></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/help-to-dev.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://peppy-smakager-545db1.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
 
-
-                {/* THIRD */}
+                {/* FOURTH */}
                 <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <img src={JsonFormatter} className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
@@ -211,13 +259,13 @@ const Work = () => {
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></h1></li>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></h1></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/JSON-formatter.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://json-formatter-9fx.pages.dev/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
 
-                {/* FOURTH */}
+                {/* FIFTH */}
                 <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <img src={Dashboard} className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
@@ -234,26 +282,13 @@ const Work = () => {
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></h1></li>
-                            <li><h1 className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></h1></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Dashboard-app.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://wonderful-marigold-a4fcc1.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
-
-
-
-
+                
             </div>
-
-
-
-            {/* <div>
-                <h1 className='px-6 pt-8 text-lg font-semibold'>Crypto Currency</h1>
-                <div className='md:bg-black relative text-white px-6 py-4  lg:w-[450px]'>
-                    <img src={CrptoCurrency} className='opacity-[0.4]' alt="" />
-                    <p className='absolute'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vero delectus hic nam voluptate quia suscipit reprehenderit voluptas. Iste ullam rem, a tempora aspernatur repellat.</p>
-                </div>
-            </div> */}
 
         </div>
     )
