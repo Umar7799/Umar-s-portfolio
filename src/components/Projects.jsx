@@ -51,6 +51,7 @@ const Projects = () => {
 
             <div className="grid text-center grid-cols-1  lg:grid-cols-3 sm:grid-cols-2 gap-3 gap-y-2 mx-14 sm:mx-12 md:mx-32">
 
+
                 {/* CARD 1 */}
                 <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
                     <img className='rounded h-full opacity-[0.5]' src={WheatherApp} alt="" />

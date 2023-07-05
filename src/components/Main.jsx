@@ -32,40 +32,72 @@ const Main = () => {
             </div>
             <div>
                 {/* EMAIL */}
-                <div className='vr hidden md:flex fixed justify-between lg:right-12 right-8 bottom-0 z-50 duration-300'>
-                    <div className='mr-[13px] h-[210px] w-[1px] rounded bg-[#c0bebe]'></div>
+                <div className='vr hidden md:flex fixed h-[100vh] justify-between lg:right-12 right-8 bottom-0 z-50 duration-300'>
+                    <div className='mr-[13px] h-[35%] w-[1px] rounded bg-[#c0bebe]'></div>
                     <a href={mailtoLink} className='tracking-widest my-8 text-sm font-semibold cursor-pointer opacity-[0.7] hover:opacity-[1] hover:shadow-xl duration-300'>www.behruz00@mail.ru</a>
-                    <div className='mr-[13px] mb-0 h-[210px] w-[1px] rounded bg-[#c0bebe]'></div>
+                    <div className='mr-[13px] mb-0 h-[35%] w-[1px] rounded bg-[#c0bebe]'></div>
                 </div>
                 {/* SOCIAL MEDIA ICONS */}
-                <div className='vr hidden md:flex text-[25px] space-y-6 fixed justify-between left-10 bottom-0 cursor-pointer z-50 duration-300'>
-                    <div className='absolute left-[11px] bottom-[470px] h-[190px] w-[1px] rounded bg-[#c0bebe]'></div>
 
-                    <div className='flex absolute left-0 bottom-[415px]'>
-                        <a target="_blank" rel="noreferrer" href='https://instagram.com/inakov_b?igshid=MzNlNGNkZWQ4Mg==' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineInstagram /></a>
-                        <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
+
+                <div className='vr hidden md:flex text-[25px] fixed h-[100vh] justify-between lg:left-10 left-8 bottom-0 z-50 duration-300'>
+                    <div className='mr-[13px] h-[30%] w-[1px] rounded bg-[#c0bebe]'></div>
+                        <a target="_blank" rel="noreferrer" href='https://instagram.com/inakov_b?igshid=MzNlNGNkZWQ4Mg==' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineInstagram /></a>
+                    <div className='flex'>
+                        <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineGithub /></a>
+                        {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
                     </div>
-                    <div className='flex absolute left-0 bottom-[365px]'>
-                        <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineGithub /></a>
-                        <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
+                    <div className='flex'>
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/abdunosir-rakhmonov-3128a7240' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineLinkedin /></a>
+                        {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
                     </div>
-                    <div className='flex absolute left-0 bottom-[315px]'>
-                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/abdunosir-rakhmonov-3128a7240' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineLinkedin /></a>
-                        <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
+                    <div className='flex'>
+                        <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineFacebook /></h1>
+                        {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
                     </div>
-                    <div className='flex absolute left-0 bottom-[265px]'>
-                        <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineFacebook /></h1>
-                        <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
+                    <div className='flex'>
+                        <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineTwitter /></h1>
+                        {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
                     </div>
-                    <div className='flex absolute left-0 bottom-[215px]'>
-                        <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineTwitter /></h1>
-                        <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div>
-                    </div>
-                    <div className='absolute left-[11px] bottom-0 h-[190px] w-[1px] rounded bg-[#c0bebe]'></div>                    
+                    <div className='mr-[13px] mb-0 h-[35%] w-[1px] rounded bg-[#c0bebe]'></div>
                 </div>
+
+
+
+
             </div>
         </div>
     )
 }
 
 export default Main
+
+
+
+
+
+
+//     < div className = 'vr hidden md:flex text-[25px] h-[100vh] space-y-6 fixed justify-between left-7 bottom-0 cursor-pointer z-50 duration-300' >
+// <div className='h-[35%] w-[1px] rounded bg-[#c0bebe]'></div>
+// <div className='flex'>
+//     <a target="_blank" rel="noreferrer" href='https://instagram.com/inakov_b?igshid=MzNlNGNkZWQ4Mg==' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineInstagram /></a>
+//     {/* <div className='bg-[#c0bebe] w-[80px] h-[1px]'></div> */}
+// </div>
+// <div className='flex'>
+//     <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineGithub /></a>
+//     {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
+// </div>
+// <div className='flex'>
+//     <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/abdunosir-rakhmonov-3128a7240' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineLinkedin /></a>
+//     {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
+// </div>
+// <div className='flex'>
+//     <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineFacebook /></h1>
+//     {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
+// </div>
+// <div className='flex'>
+//     <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl hover:text-[26px] duration-300'><AiOutlineTwitter /></h1>
+//     {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
+// </div>
+// <div className='h-[35%] w-[1px] rounded bg-[#c0bebe]'></div>
+// </div >
