@@ -42,7 +42,10 @@ const Main = () => {
 
                 <div className='vr hidden md:flex text-[25px] fixed h-[100vh] justify-between lg:left-10 left-8 bottom-0 z-50 duration-300'>
                     <div className='mr-[13px] h-[30%] w-[1px] rounded bg-[#c0bebe]'></div>
+                    <div className='flex'>
                         <a target="_blank" rel="noreferrer" href='https://instagram.com/inakov_b?igshid=MzNlNGNkZWQ4Mg==' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineInstagram /></a>
+                        {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
+                    </div>
                     <div className='flex'>
                         <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799' className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineGithub /></a>
                         {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}

@@ -11,6 +11,21 @@ const Navbar = () => {
     const [isOpen, setOpen] = useState(false)
     getSidebarVal(isOpen)
 
+    useEffect(() => {
+        const handleResize = () => {
+            if (window.innerWidth < 640) {
+                setOpen(false)
+            }
+        };
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+
+
+
     const preventScrolling = () => {
         if (isOpen == true) {
             document.body.style.overflow = "hidden"
