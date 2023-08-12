@@ -18,9 +18,9 @@ const Work = () => {
         <div id='recentWork' className={sidebarVal ? 'duration-300 blur-sm relative overflow-hidden bg-[#405855] text-white' : 'relative overflow-hidden bg-[#405855] text-white'}>
 
 
-            <div className='flex pl-12 md:pl-24 lg:pl-28 pt-8 sm:pt-16'>
+            <div className='flex px-5 sm:pl-12 md:pl-24 lg:pl-28 pt-8 sm:pt-16'>
                 <h1 className='text-2xl md:text-3xl font-semibold lg:pl-4 md:pl-2'>Some Projects I've built</h1>
-                <div className='h-[1px] bg-[#c0bebe] w-[25%] lg:w-[200px] mt-5 ml-5'></div>
+                <div className='h-[1px] bg-[#c0bebe] w-[25%] lg:w-[200px] mt-5 sm:ml-5 ml-4'></div>
             </div>
 
 
@@ -36,7 +36,7 @@ const Work = () => {
                         </div>
                         <div>
                             {/* TECHNOLOGIES */}
-                            <ul className='flex space-x-4 font-semibold pl-2'>
+                            <ul className='flex space-x-4 break-words font-semibold pl-2'>
                                 <li>Javascript</li>
                                 <li>css</li>
                                 <li>React</li>
@@ -174,19 +174,17 @@ const Work = () => {
             <div className='md:hidden  bg-[#405855] duration-500 pb-20'>
 
                 {/* FIRST */}
-                <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
+                <div className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <img src={DynamicTable} className='rounded-md h-full' />
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dynamic Table</h1>
-                        <p class="px-5 pt-6">Dynamic table. Fetching data from google books api. Find your book with with searching by its name or author. And other books by the same author.</p>
+                    <div class="absolute overflow-hidden px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 break-keep font-bold cursor-pointer">Dynamic Table</h1>
+                        <p class="hidden sm:block px-5 pt-6">Dynamic table. Fetching data from google books api. Find your book with searching by its name or author. And other books by the same author.</p>
+                        <p class="sm:hidden pt-6">Fetching data from google books api. Find your favourite author's books </p>
                     </div>
-                    <div className='absolute sm:bottom-5 bottom-6 left-8'>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='flex space-x-4 font-semibold pr-8'>
-                            <li>Javascript</li>
-                            <li>css</li>
-                            <li>React</li>
-                            <li>Tailwindcss</li>
+                        <ul className='pr-4'>
+                            <p>JavaScript &nbsp;React &nbsp;Css Tailwindcss</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
@@ -197,20 +195,18 @@ const Work = () => {
                 </div>
 
                 {/* SECOND */}
-                <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
+                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <img src={CrptoCurrency} alt='Image' className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
-                        <p class="px-5 pt-6">Crypto currency react application. With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
+                        <p class="hidden sm:block px-5 pt-6">Crypto currency react application. With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
+                        <p class="sm:hidden pt-6">Crypto currency react application. Responsive, dark and light modes</p>
                     </div>
-                    <div className='absolute sm:bottom-5 bottom-6 left-8'>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='flex space-x-4 font-semibold pr-8'>
-                            <li>React</li>
-                            <li>Tailwindcss</li>
-                            <li>Javascript</li>
-                            <li>Css</li>
-                            <li>Firebase</li>
+                        <ul className='pr-4'>
+
+                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css Firebase</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
@@ -221,19 +217,17 @@ const Work = () => {
                 </div>
 
                 {/* THIRD */}
-                <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
+                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <img src={HelpToDev} className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl px-5 pt-4 sm:pt-6 font-bold cursor-pointer">HelpToDev</h1>
-                        <p class="px-5 pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">HelpToDev</h1>
+                        <p class="hidden sm:block px-5 pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
+                        <p class="sm:hidden pt-6">To share software engineering problems and solutions. Software developing Community!</p>
                     </div>
-                    <div className='absolute sm:bottom-5 bottom-6 left-8'>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='flex space-x-4 font-semibold pr-8'>
-                            <li>Javascript</li>
-                            <li>css</li>
-                            <li>React</li>
-                            <li>Tailwindcss</li>
+                        <ul className='pr-4'>
+                            <p>JavaScript &nbsp;css &nbsp;React Tailwindcss</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
@@ -244,18 +238,16 @@ const Work = () => {
                 </div>
 
                 {/* FOURTH */}
-                <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
+                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <img src={JsonFormatter} className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">JOSN Formatter</h1>
-                        <p class="px-5 pt-6">Simple JSON Formatter application. Formatting to JSON and minifying version of that JSON</p>
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">JOSN Formatter</h1>
+                        <p class="sm:px-5 pt-6">Simple JSON Formatter application. Formatting to JSON and minifying version of that JSON</p>
                     </div>
-                    <div className='absolute sm:bottom-5 bottom-6 left-8'>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='flex space-x-4 font-semibold pr-8'>
-                            <li>React</li>
-                            <li>Tailwindcss</li>
-                            <li>Javascript</li>
+                        <ul className='pr-4'>
+                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
@@ -266,19 +258,17 @@ const Work = () => {
                 </div>
 
                 {/* FIFTH */}
-                <div className='projects h-[350px] sm:h-auto relative flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
+                <div className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <img src={Dashboard} className='rounded-md h-full' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
-                        <p class="px-5 pt-6">React admin dashboard application. Fully mobile responsive and customizable. Six of color themes, toggle between dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
+                        <p class="hidden sm:block px-5 pt-6">React admin dashboard application. Fully mobile responsive and customizable. Six of color themes, toggle between dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
+                        <p class="sm:hidden pt-6">Fully mobile responsive and customizable. Six of color themes, dark and light mode.</p>
                     </div>
-                    <div className='absolute sm:bottom-5 bottom-6 left-8'>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='flex space-x-4 font-semibold pr-8'>
-                            <li>React</li>
-                            <li>Tailwindcss</li>
-                            <li>Javascript</li>
-                            <li>Css</li>
+                        <ul className='pr-4'>
+                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript Css</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
@@ -287,7 +277,7 @@ const Work = () => {
                         </ul>
                     </div>
                 </div>
-                
+
             </div>
 
         </div>

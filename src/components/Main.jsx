@@ -14,10 +14,10 @@ const Main = () => {
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
     return (
-        <div id='main' className='pt-[75px] h-[100vh] text-white bg-[#405855]'>
-            <div className='mx-6 h-[85vh]'>
+        <div id='main' className='pt-[75px] h-[100%] text-white bg-[#405855]'>
+            <div className='sm:px-6 h-[85vh]'>
                 <div className={sidebarVal ? 'duration-500 blur-sm pl-10 sm:pl-18 md:pl-20 pr-20 pt-14' : 'duration-500 pl-4 md:pl-20 lg:pl-28 pr-15 md:pr-20 pt-12 md:pt-18 lg:pt-20'}>
-                    <div className='text-[#fdfcfc]'>
+                    <div className='text-[#fdfcfc] pr-4 sm:pr-0'>
                         <h1 className='tracking-widest md:text-[18px] font-mono font-semibold'>Hi, my name is</h1>
                         <h1 className='text-4xl sm:text-5xl md:text-6xl font-bold pt-2'>Umar Rakhmonov.</h1>
                         <h1 className='text-3xl sm:text-4xl md:text-5xl font-semibold pt-2'>I design and build things for web.</h1>

@@ -27,10 +27,10 @@ const Navbar = () => {
 
 
     const preventScrolling = () => {
-        if (isOpen == true) {
+        if (isOpen === true) {
             document.body.style.overflow = "hidden"
         }
-        if (isOpen == false) {
+        if (isOpen === false) {
             document.body.style.overflow = "auto"
         }
     }
