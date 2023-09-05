@@ -8,6 +8,7 @@ import { GetInfo } from '../Contexts/Context'
 import { AiOutlineGithub } from 'react-icons/ai'
 import { FiExternalLink } from 'react-icons/fi'
 import DynamicTable from '../picss/DynamicTable.png'
+import Pizzeria from '../picss/Pizzeria.png'
 
 const Work = () => {
     const { sidebarVal } = GetInfo()
@@ -24,6 +25,35 @@ const Work = () => {
             </div>
 
 
+            <div className='hidden md:flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
+                <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
+                    <img src={Pizzeria} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+
+                    <div class="absolute right-0 h-full bg-opacity-40 duration-500">
+                        <div className='text-right'>
+                            <h1 class="text-2xl font-semibold text-white cursor-pointer">Pizzeria</h1>
+                            <p class="projectCommentRight bg-gradient-to-r from-[#405855]  to-[#447771] p-4 my-4 rounded lg:w-[500px] md:w-[400px]">A Beautiful website for Pizzerias. Hover animation, Easy navbar, Shining letters and so on. A wonderful things about this project is the -BESTSELLERS- part and its amazing hover effects and animations</p>
+                        </div>
+
+                        <div>
+                            {/* TECHNOLOGIES */}
+                            <ul className='flex space-x-4 justify-end font-semibold'>
+                                <li>React</li>
+                                <li>Tailwindcss</li>
+                                <li>Javascript</li>
+                                <li>Css</li>
+                            </ul>
+                            {/* ICONS */}
+                            <ul className='flex justify-end text-2xl space-x-5 pt-4'>
+                                <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Pizzeria.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href='https://random-pizzeria.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             {/* FIRST */}
             <div className='hidden md:flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
                 <div className=' flex justify-end relative mt-10'>
@@ -32,7 +62,7 @@ const Work = () => {
                     <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                         <div>
                             <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">Dynamic Table</h3>
-                            <p class="projectCommentLeft  bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">Dynamic table. Fetching data from google books api. Find your book with with searching by its name or author. And other books by the same author.</p>
+                            <p class="projectCommentLeft  bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">Dynamic table. Fetching data from google books api. Find your book with with searching by its name or author. And other books by the same author</p>
                         </div>
                         <div>
                             {/* TECHNOLOGIES */}
@@ -172,6 +202,30 @@ const Work = () => {
 
             {/* MEDIUM NI PASIDA */}
             <div className='md:hidden  bg-[#405855] duration-500 pb-20'>
+
+
+                {/* LAST ADDED */}
+                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
+                    <img src={CrptoCurrency} alt='Image' className='rounded-md h-full' />
+                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
+                        <p class="hidden sm:block px-5 pt-6">Crypto currency react application. With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
+                        <p class="sm:hidden pt-6">Crypto currency react application. Responsive, dark and light modes</p>
+                    </div>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
+                        {/* TECHNOLOGIES */}
+                        <ul className='pr-4'>
+
+                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css Firebase</p>
+                        </ul>
+                        {/* ICONS */}
+                        <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Crypto-currency.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://legendary-sunflower-e62bae.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                        </ul>
+                    </div>
+                </div>
+
 
                 {/* FIRST */}
                 <div className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
