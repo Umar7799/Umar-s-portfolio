@@ -192,7 +192,7 @@ const Work = () => {
                             {/* ICONS */}
                             <ul className='flex text-2xl space-x-5 pl-2 pt-4'>
                                 <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Dashboard-app.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
-                                <li><a target="_blank" rel="noreferrer" href='https://random-pizzeria.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                                <li><a target="_blank" rel="noreferrer" href='https://wonderful-marigold-a4fcc1.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
                             </ul>
                         </div>
                     </div>
@@ -206,8 +206,8 @@ const Work = () => {
 
 
                 {/* LAST ADDED */}
-                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <img src={Pizzeria} alt='Image' className='rounded-md h-full' />
+                <div className='projects min-h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
+                    <img src={Pizzeria} alt='Image' className='rounded-md' />
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Pizzeria</h1>
                         <p class="hidden sm:block px-5 pt-6">A Beautiful website for Pizzerias. Hover animation, Easy navbar, Shining letters and so on. A wonderful things about this project is the -BESTSELLERS- part and its amazing hover effects and animations</p>
@@ -222,7 +222,7 @@ const Work = () => {
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
                             <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Pizzeria.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
-                            <li><a target="_blank" rel="noreferrer" href='https://legendary-sunflower-e62bae.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://random-pizzeria.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>

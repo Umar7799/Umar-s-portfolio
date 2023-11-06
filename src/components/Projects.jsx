@@ -53,9 +53,16 @@ const Projects = () => {
 
 
                 {/* CARD 1 */}
-                <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <img className='rounded h-full opacity-[0.5]' src={WheatherApp} alt="" />
-                    <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
+                <div
+                    style={{
+                        backgroundImage: `url(${WheatherApp}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300">
+                    <div className='rounded h-full w-full backdrop-blur-[3px] grid content-between'>
                         <div className='flex justify-between p-4'>
                             <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
                             <div className='flex space-x-3 pt-1 text-2xl'>
@@ -63,24 +70,29 @@ const Projects = () => {
                                 <a target="_blank" rel="noreferrer" href='https://dapper-madeleine-e57ef9.netlify.app' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
                             </div>
                         </div>
-                        <div className='pt-3 pb-4'>
+                        <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
                             <h1 className='text-2xl font-semibold'>Wheather App</h1>
                             <p className='font-semibold pt-2 px-6'>A simple wheather app. Showing wheather of cities around the world. Fetching data from server</p>
                         </div>
-                        <div>
-                            <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
-                                <li>React</li>
-                                <li>Javascript</li>
-                                <li>css</li>
-                            </ul>
-                        </div>
+                        <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
+                            <li>React</li>
+                            <li>Javascript</li>
+                            <li>css</li>
+                        </ul>
                     </div>
                 </div>
 
                 {/* CARD 2 */}
-                <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <img className='rounded h-full opacity-[0.5]' src={AnimatedSquares} alt="" />
-                    <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
+                <div
+                    style={{
+                        backgroundImage: `url(${AnimatedSquares}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300">
+                    <div className='rounded h-full w-full backdrop-blur-[3px] grid content-between'>
                         <div className='flex justify-between p-4'>
                             <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
                             <div className='flex space-x-3 pt-1 text-2xl'>
@@ -88,24 +100,29 @@ const Projects = () => {
                                 <a target="_blank" rel="noreferrer" href='https://b0f3095d.animating-squares.pages.dev' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
                             </div>
                         </div>
-                        <div className='pt-3 pb-4'>
+                        <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
                             <h1 className='text-2xl font-semibold'>Animated Squares</h1>
                             <p className='font-semibold pt-2 px-6'>Animated Squares. Click any of them to make them show different effects</p>
                         </div>
-                        <div>
-                            <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>Javascript</li>
-                            </ul>
-                        </div>
+                        <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
                 </div>
 
                 {/* CARD 3*/}
-                <div class="relative projects rounded my-2 hover:mt-0 text-white hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <img className='rounded h-full opacity-[0.5]' src={Levis} alt="" />
-                    <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
+                <div
+                    style={{
+                        backgroundImage: `url(${Levis}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className="relative projects rounded my-2 hover:mt-0 text-white hover:mb-4 duration-300">
+                    <div className='rounded h-full w-full backdrop-blur-[3px] grid content-between'>
                         <div className='flex justify-between p-4'>
                             <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
                             <div className='flex space-x-3 pt-1 text-2xl'>
@@ -113,25 +130,30 @@ const Projects = () => {
                                 <a target="_blank" rel="noreferrer" href='https://6a932b94.levis-3x8.pages.dev' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
                             </div>
                         </div>
-                        <div className='pt-3 pb-4 duration-500'>
+                        <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
                             <h1 className='text-2xl font-semibold'>Levi's T-shirt</h1>
                             <p className='font-semibold pt-2 px-6'>Levi's T-shirt web page. Fully responsive, animating elements with delay</p>
                         </div>
-                        <div>
-                            <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>Javascript</li>
-                                <li>gsap</li>
-                            </ul>
-                        </div>
+                        <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>Javascript</li>
+                            <li>gsap</li>
+                        </ul>
                     </div>
                 </div>
 
                 {/* CARD 4 */}
-                <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <img className='rounded h-full opacity-[0.5]' src={MountainParallax} alt="" />
-                    <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
+                <div
+                    style={{
+                        backgroundImage: `url(${MountainParallax}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
+                    <div className='rounded h-full w-full backdrop-blur-[3px] grid content-between'>
                         <div className='flex justify-between p-4'>
                             <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
                             <div className='flex space-x-3 pt-1 text-2xl'>
@@ -139,24 +161,29 @@ const Projects = () => {
                                 <a target="_blank" rel="noreferrer" href='https://05f94261.mountain-parallax.pages.dev' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
                             </div>
                         </div>
-                        <div className='pt-3 pb-4'>
+                        <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
                             <h1 className='text-2xl font-semibold'>Mountain Parallax</h1>
                             <p className='font-semibold pt-2 px-6'>Mountain parallax effect. Simple moving elements on scroll</p>
                         </div>
-                        <div>
-                            <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>Javascript</li>
-                            </ul>
-                        </div>
+                        <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
+                            <li>html</li>
+                            <li>css</li>
+                            <li>Javascript</li>
+                        </ul>
                     </div>
                 </div>
 
                 {/* CARD 5*/}
-                <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <img className='rounded h-full opacity-[0.5]' src={ExpenceTracker} alt="" />
-                    <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
+                <div
+                    style={{
+                        backgroundImage: `url(${ExpenceTracker}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
+                    <div className='rounded h-full w-full backdrop-blur-[3px] grid content-between'>
                         <div className='flex justify-between p-4'>
                             <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
                             <div className='flex space-x-3 pt-1 text-2xl'>
@@ -164,23 +191,28 @@ const Projects = () => {
                                 <a target="_blank" rel="noreferrer" href='https://dashing-heliotrope-fbd5f5.netlify.app' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
                             </div>
                         </div>
-                        <div className='pt-3 pb-4'>
+                        <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
                             <h1 className='text-2xl font-semibold'>Expense Tracker</h1>
                             <p className='font-semibold pt-2 px-6'>Expence tracker application. Adding, removing, calculating and more</p>
                         </div>
-                        <div>
-                            <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
-                                <li>React</li>
-                                <li>Javascript</li>
-                                <li>css</li>
-                            </ul>
-                        </div>
+                        <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
+                            <li>React</li>
+                            <li>Javascript</li>
+                            <li>css</li>
+                        </ul>
                     </div>
                 </div>
 
                 {/* CARD 6*/}
-                <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <img className='rounded h-full opacity-[0.5]' src={SigninSignUp} alt="" />
+                <div
+                    style={{
+                        backgroundImage: `url(${SigninSignUp}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
                     <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                         <div className='flex justify-between p-4'>
                             <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -219,8 +251,15 @@ const Projects = () => {
                         <div className="grid text-center grid-cols-1  lg:grid-cols-3 sm:grid-cols-2 gap-3 gap-y-2 mx-14 sm:mx-12 md:mx-32">
                             {/* UNDER THE "SHOW MORE" BUTTON */}
                             {/* CARD 7*/}
-                            <div class="relative projects rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={RockPaperScissor} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${RockPaperScissor}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -246,8 +285,15 @@ const Projects = () => {
 
 
                             {/* CARD 8*/}
-                            <div class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                                <img className='rounded h-full opacity-[0.5]' src={Profile} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${Profile}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -273,8 +319,15 @@ const Projects = () => {
 
 
                             {/* CARD 9*/}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={MoonLight} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${MoonLight}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -299,8 +352,15 @@ const Projects = () => {
 
 
                             {/* CARD 10 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={Clock} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${Clock}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -324,8 +384,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 11 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={Starbucks} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${Starbucks}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -349,8 +416,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 12 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={ToDoApp} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${ToDoApp}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -375,8 +449,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 13 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={FlippingCard} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${FlippingCard}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -400,8 +481,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 14 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={EasyGo} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${EasyGo}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -425,8 +513,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 15 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={FoodMenuPro} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${FoodMenuPro}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -451,8 +546,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 16 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={DreamClouds} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${DreamClouds}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -476,8 +578,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 17 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={FoodMenu} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${FoodMenu}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -502,8 +611,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 18 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={Eat} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${Eat}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -528,8 +644,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 19 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={Login} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${Login}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -553,8 +676,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 20 */}
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={DragAndDrop} alt="" />
+                            <div
+                                style={{
+                                    backgroundImage: `url(${DragAndDrop}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
@@ -578,9 +708,15 @@ const Projects = () => {
                             </div>
 
                             {/* CARD 21 */}
+                            <div
+                                style={{
+                                    backgroundImage: `url(${SignupForm}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
 
-                            <div class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
-                                <img className='rounded h-full opacity-[0.5]' src={SignupForm} alt="" />
+                                }}
+                                class="relative projects  rounded my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px] text-white">
                                 <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
                                     <div className='flex justify-between p-4'>
                                         <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
