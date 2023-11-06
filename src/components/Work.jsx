@@ -206,8 +206,16 @@ const Work = () => {
 
 
                 {/* LAST ADDED */}
-                <div className='projects min-h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <img src={Pizzeria} alt='Image' className='rounded-md' />
+                <div
+                    style={{
+                        backgroundImage: `url(${Pizzeria}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className='projects min-h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
+                    {/* <img src={Pizzeria} alt='Image' className='rounded-md' /> */}
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Pizzeria</h1>
                         <p class="hidden sm:block px-5 pt-6">A Beautiful website for Pizzerias. Hover animation, Easy navbar, Shining letters and so on. A wonderful things about this project is the -BESTSELLERS- part and its amazing hover effects and animations</p>
@@ -229,8 +237,15 @@ const Work = () => {
 
 
                 {/* FIRST */}
-                <div className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <img src={DynamicTable} className='rounded-md h-full' />
+                <div
+                    style={{
+                        backgroundImage: `url(${DynamicTable}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <div class="absolute overflow-hidden px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 break-keep font-bold cursor-pointer">Dynamic Table</h1>
                         <p class="hidden sm:block px-5 pt-6">Dynamic table. Fetching data from google books api. Find your book with searching by its name or author. And other books by the same author.</p>
@@ -250,8 +265,15 @@ const Work = () => {
                 </div>
 
                 {/* SECOND */}
-                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <img src={CrptoCurrency} alt='Image' className='rounded-md h-full' />
+                <div
+                    style={{
+                        backgroundImage: `url(${CrptoCurrency}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
                         <p class="hidden sm:block px-5 pt-6">Crypto currency react application. With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
@@ -272,8 +294,15 @@ const Work = () => {
                 </div>
 
                 {/* THIRD */}
-                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <img src={HelpToDev} className='rounded-md h-full' />
+                <div
+                    style={{
+                        backgroundImage: `url(${HelpToDev}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">HelpToDev</h1>
                         <p class="hidden sm:block px-5 pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
@@ -293,8 +322,15 @@ const Work = () => {
                 </div>
 
                 {/* FOURTH */}
-                <div className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <img src={JsonFormatter} className='rounded-md h-full' />
+                <div
+                    style={{
+                        backgroundImage: `url(${JsonFormatter}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className='projects h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">JOSN Formatter</h1>
                         <p class="sm:px-5 pt-6">Simple JSON Formatter application. Formatting to JSON and minifying version of that JSON</p>
@@ -313,8 +349,15 @@ const Work = () => {
                 </div>
 
                 {/* FIFTH */}
-                <div className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <img src={Dashboard} className='rounded-md h-full' />
+                <div
+                    style={{
+                        backgroundImage: `url(${Dashboard}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+
+                    }}
+                    className='projects h-[350px] sm:h-auto relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
                         <p class="hidden sm:block px-5 pt-6">React admin dashboard application. Fully mobile responsive and customizable. Six of color themes, toggle between dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
