@@ -47,8 +47,8 @@ const Work = () => {
                                 </ul>
                                 {/* ICONS */}
                                 <ul className='flex justify-end text-2xl space-x-5 pt-4'>
-                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Pizzeria.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
-                                    <li><a target="_blank" rel="noreferrer" href='https://random-pizzeria.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/goFast' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
+                                    <li><a target="_blank" rel="noreferrer" href='https://gofastfirst.netlify.app/' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -238,8 +238,8 @@ const Work = () => {
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Pizzeria.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
-                            <li><a target="_blank" rel="noreferrer" href='https://random-pizzeria.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/goFast' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://gofastfirst.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
