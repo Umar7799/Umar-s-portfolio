@@ -102,7 +102,7 @@ const Projects = () => {
                         </div>
                         <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
                             <h1 className='text-2xl font-semibold'>Animated Squares</h1>
-                            <p className='font-semibold pt-2 px-6'>Animated Squares. Click any of them to make them show different effects</p>
+                            <p className='font-semibold pt-2 px-6'>Animated Squares. Click any of them to make them show different animations</p>
                         </div>
                         <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
                             <li>html</li>
