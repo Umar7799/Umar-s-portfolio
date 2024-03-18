@@ -28,6 +28,7 @@ import Login from '../picss/login.png'
 import FoodMenu from '../picss/FoodMenu-App1.png'
 import DragAndDrop from '../picss/dragAndDrop.png'
 import SignupForm from '../picss/signupForm.png'
+import Championship from '../picss/Championship.png'
 
 
 
@@ -46,12 +47,40 @@ const Projects = () => {
 
             <div className='text-white text-center pb-12'>
                 <h1 className='text-3xl  font-mono font-semibold'>Other Projects</h1>
-                <h1 className='text-lg'>view the archive</h1>
+                <h1 className='text-lg font-semibold'>view the archive</h1>
             </div>
 
             <div className="grid text-center grid-cols-1  lg:grid-cols-3 sm:grid-cols-2 gap-3 gap-y-2 mx-14 sm:mx-12 md:mx-32">
 
+                {/* LAST ADDED */}
+                <div
+                    style={{
+                        backgroundImage: `url(${Championship}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
 
+                    }}
+                    class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300">
+                    <div className='rounded h-full w-full backdrop-blur-[3px] grid content-between'>
+                        <div className='flex justify-between p-4'>
+                            <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
+                            <div className='flex space-x-3 pt-1 text-2xl'>
+                                <h1 target="_blank" rel="noreferrer" href='' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><AiOutlineGithub /></h1>
+                                <a target="_blank" rel="noreferrer" href='https://championshipping.netlify.app/' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
+                            </div>
+                        </div>
+                        <div className='pb-8 sm:pb-12 pt-2 transition-all duration-300'>
+                            <h1 className='text-2xl font-semibold'>Championship App</h1>
+                            <p className='font-semibold pt-2 px-6'>If you have multiple team or people to play a game you can simply random the teams or people like soccer football championship</p>
+                        </div>
+                        <ul className='techText pl-4 py-4 text-sm flex space-x-3 text-gray-200'>
+                            <li>Javascript</li>
+                            <li>bootstrap</li>
+                            <li>css</li>
+                        </ul>
+                    </div>
+                </div>
                 {/* CARD 1 */}
                 <div
                     style={{
@@ -203,37 +232,7 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* CARD 6*/}
-                <div
-                    style={{
-                        backgroundImage: `url(${SigninSignUp}) `,
-                        backgroundRepeat: 'no-repeat',
-                        backgroundSize: 'cover',
-                        backgroundPosition: 'center',
 
-                    }}
-                    class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
-                    <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
-                        <div className='flex justify-between p-4'>
-                            <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
-                            <div className='flex space-x-3 pt-1 text-2xl'>
-                                <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Signin-SignUp.git' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><AiOutlineGithub /></a>
-                                <a target="_blank" rel="noreferrer" href='https://0b604fe0.signin-signup.pages.dev' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
-                            </div>
-                        </div>
-                        <div className='pt-3 pb-4'>
-                            <h1 className='text-2xl font-semibold'>Sign in and Sign up</h1>
-                            <p className='font-semibold pt-2 px-6'>A Signing in and signing up page. Accurate form, moving blue element to get the another side of the page</p>
-                        </div>
-                        <div>
-                            <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
-                                <li>html</li>
-                                <li>css</li>
-                                <li>Javascript</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </div>
             <motion.div
                 transition={{ layout: { duration: 0.6, type: "spring" } }}
@@ -250,6 +249,40 @@ const Projects = () => {
 
                         <div className="grid text-center grid-cols-1  lg:grid-cols-3 sm:grid-cols-2 gap-3 gap-y-2 mx-14 sm:mx-12 md:mx-32">
                             {/* UNDER THE "SHOW MORE" BUTTON */}
+
+
+                            {/* CARD 6*/}
+                            <div
+                                style={{
+                                    backgroundImage: `url(${SigninSignUp}) `,
+                                    backgroundRepeat: 'no-repeat',
+                                    backgroundSize: 'cover',
+                                    backgroundPosition: 'center',
+
+                                }}
+                                class="relative projects rounded text-white my-2 hover:mt-0 hover:mb-4 duration-300 lg:h-auto min-h-[270px]">
+                                <div className='absolute rounded top-0 h-full w-full backdrop-blur-[3px]'>
+                                    <div className='flex justify-between p-4'>
+                                        <h1 className='text-3xl cursor-pointer hover:text-4xl hover:mt-[-2px] duration-300'><FiFolder /></h1>
+                                        <div className='flex space-x-3 pt-1 text-2xl'>
+                                            <a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Signin-SignUp.git' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><AiOutlineGithub /></a>
+                                            <a target="_blank" rel="noreferrer" href='https://0b604fe0.signin-signup.pages.dev' className='cursor-pointer hover:text-3xl hover:mt-[-4px] duration-300'><FiExternalLink /></a>
+                                        </div>
+                                    </div>
+                                    <div className='pt-3 pb-4'>
+                                        <h1 className='text-2xl font-semibold'>Sign in and Sign up</h1>
+                                        <p className='font-semibold pt-2 px-6'>A Signing in and signing up page. Accurate form, moving blue element to get the another side of the page</p>
+                                    </div>
+                                    <div>
+                                        <ul className='techText absolute bottom-4 left-2 pt-2 px-4 text-sm flex space-x-3 text-gray-200'>
+                                            <li>html</li>
+                                            <li>css</li>
+                                            <li>Javascript</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/* CARD 7*/}
                             <div
                                 style={{
