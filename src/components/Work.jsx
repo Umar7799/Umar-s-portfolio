@@ -225,10 +225,9 @@ const Work = () => {
                         backgroundPosition: 'center',
                     }}
                     className='projects min-h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    {/* <img src={Pizzeria} alt='Image' className='rounded-md' /> */}
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">goFast</h1>
-                        <p class="block px-5 pt-6">goFast is very similar project to Blablacar. But the project is built to run in Uzbekistan -'not in EU'-. It has many pages, sticky navbar, and different side menus</p>
+                        <p class="pt-6">goFast is very similar project to Blablacar. But the project is built to run in Uzbekistan -'not in EU'-. It has many pages, sticky navbar, and different side menus</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
@@ -253,9 +252,9 @@ const Work = () => {
                     }}
                     className='projects min-h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     {/* <img src={Pizzeria} alt='Image' className='rounded-md' /> */}
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Pizzeria</h1>
-                        <p class="px-5 pt-6">A Beautiful website for Pizzeria. Animation, Easy navbar, Shining letters and so on. A wonderful things about this project is the BESTSELLERS part's amazing hover animations</p>
+                        <p class="pt-6">A Beautiful website for Pizzeria. Animation, Easy navbar, Shining letters and so on. A wonderful things about this project is amazing hover animations</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
@@ -280,7 +279,7 @@ const Work = () => {
                         backgroundPosition: 'center',
                     }}
                     className='projects h-[350px] relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <div class="absolute overflow-hidden px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
+                    <div class="absolute text-center overflow-hidden px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 break-keep font-bold cursor-pointer">Dynamic Table</h1>
                         <p class="px-5 pt-6">Dynamic table. Fetching data from google books api. Find your book with searching by its name or author. And other books by the same author.</p>
                     </div>
@@ -303,9 +302,9 @@ const Work = () => {
                         backgroundPosition: 'center',
                     }}
                     className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
-                        <p class="px-5 pt-6">With in-depth data about all crypto currencies, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
+                        <p class="pt-6">With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
@@ -329,9 +328,9 @@ const Work = () => {
                         backgroundPosition: 'center',
                     }}
                     className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">HelpToDev</h1>
-                        <p class="px-5 pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
+                        <p class="pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
@@ -355,7 +354,7 @@ const Work = () => {
 
                     }}
                     className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                    <div class=" text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">JOSN Formatter</h1>
                         <p class="sm:px-5 pt-6">Simple JSON Formatter application. Formatting to JSON and minifying version of that JSON</p>
                     </div>
@@ -380,9 +379,9 @@ const Work = () => {
                         backgroundPosition: 'center',
                     }}
                     className='projects h-[350px] relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
-                        <p class="px-5 pt-6">Admin dashboard application. Fully mobile responsive and customizable. Six of color themes, dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
+                        <p class="pt-6">Admin dashboard application. Fully mobile responsive and customizable. Six of color themes, dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
