@@ -53,6 +53,7 @@ const Projects = () => {
             <div className="grid text-center grid-cols-1  lg:grid-cols-3 sm:grid-cols-2 gap-3 gap-y-2 mx-14 sm:mx-12 md:mx-32">
 
                 {/* LAST ADDED */}
+                {/* CHAMPIONSHIP */}
                 <div
                     style={{
                         backgroundImage: `url(${Championship}) `,

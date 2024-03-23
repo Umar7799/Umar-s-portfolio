@@ -255,7 +255,7 @@ const Work = () => {
                     {/* <img src={Pizzeria} alt='Image' className='rounded-md' /> */}
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Pizzeria</h1>
-                        <p class="px-5 pt-6">A Beautiful website for Pizzerias. Hover animation, Easy navbar, Shining letters and so on. A wonderful things about this project is the -BESTSELLERS- part and its amazing hover effects and animations</p>
+                        <p class="px-5 pt-6">A Beautiful website for Pizzeria. Animation, Easy navbar, Shining letters and so on. A wonderful things about this project is the BESTSELLERS part's amazing hover animations</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
@@ -305,7 +305,7 @@ const Work = () => {
                     className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Crypto Currency</h1>
-                        <p class="px-5 pt-6">Crypto currency react application. With in-depth data about all crypto currencies, crypto markets, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
+                        <p class="px-5 pt-6">With in-depth data about all crypto currencies, exchanges and popular crypto currency news. Fetching data from api, responsive, dark and light modes</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
@@ -382,7 +382,7 @@ const Work = () => {
                     className='projects h-[350px] relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
                     <div class="absolute px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
                         <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
-                        <p class="px-5 pt-6">React admin dashboard application. Fully mobile responsive and customizable. Six of color themes, toggle between dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
+                        <p class="px-5 pt-6">Admin dashboard application. Fully mobile responsive and customizable. Six of color themes, dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
