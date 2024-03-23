@@ -231,8 +231,7 @@ const Work = () => {
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='pr-4'>
-
+                        <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css</p>
                         </ul>
                         {/* ICONS */}
@@ -258,8 +257,7 @@ const Work = () => {
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='pr-4'>
-
+                        <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css</p>
                         </ul>
                         {/* ICONS */}
@@ -284,7 +282,7 @@ const Work = () => {
                         <p class="px-5 pt-6">Dynamic table. Fetching data from google books api. Find your book with searching by its name or author. And other books by the same author.</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
-                        <ul className='pr-4'>
+                        <ul className='pr-4 text-xs'>
                             <p>JavaScript &nbsp;React &nbsp;Css Tailwindcss</p>
                         </ul>
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
@@ -308,8 +306,7 @@ const Work = () => {
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='pr-4'>
-
+                        <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css Firebase</p>
                         </ul>
                         {/* ICONS */}
@@ -334,7 +331,7 @@ const Work = () => {
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='pr-4'>
+                        <ul className='pr-4 text-xs'>
                             <p>JavaScript &nbsp;css &nbsp;React Tailwindcss</p>
                         </ul>
                         {/* ICONS */}
@@ -360,7 +357,7 @@ const Work = () => {
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='pr-4'>
+                        <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript</p>
                         </ul>
                         {/* ICONS */}
@@ -385,7 +382,7 @@ const Work = () => {
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
-                        <ul className='pr-4'>
+                        <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript Css</p>
                         </ul>
                         {/* ICONS */}
