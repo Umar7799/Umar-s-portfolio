@@ -29,7 +29,7 @@ const Contact = () => {
                     <h1 className='opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300'><AiOutlineTwitter /></h1>
                 </div>
                 <div className='flex justify-center pt-2'>
-                    <h1 className='text-sm text-gray-300 font-mono font-semibold'>Built by Umar Rakhmonov</h1>
+                    <h1 className='text-sm text-gray-300 font-mono font-semibold'>Built by Bekhruz Rakhmonov</h1>
                 </div>
             </div>
         </div>

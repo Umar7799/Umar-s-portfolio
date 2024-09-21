@@ -29,7 +29,7 @@ const Work = () => {
                 {/* LAST ADDED */}
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
-                        <img src={goFastPic} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={goFastPic} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
 
                         <div class="absolute right-0 h-full bg-opacity-40 duration-500">
                             <div className='text-right'>
@@ -57,7 +57,7 @@ const Work = () => {
 
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
-                        <img src={Pizzeria} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={Pizzeria} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
 
                         <div class="absolute right-0 h-full bg-opacity-40 duration-500">
                             <div className='text-right'>
@@ -85,7 +85,7 @@ const Work = () => {
 
                 <div className='flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
                     <div className=' flex justify-end relative mt-10'>
-                        <img src={DynamicTable} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={DynamicTable} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
 
                         <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                             <div>
@@ -110,7 +110,7 @@ const Work = () => {
 
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
-                        <img src={CrptoCurrency} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={CrptoCurrency} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
                         <div class="absolute right-0 h-full bg-opacity-40 duration-500">
                             <div className='text-right'>
                                 <h1 class="text-2xl font-semibold text-white cursor-pointer">Crypto Currency</h1>
@@ -136,7 +136,7 @@ const Work = () => {
 
                 <div className='flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
                     <div className=' flex justify-end relative mt-10'>
-                        <img src={HelpToDev} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={HelpToDev} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
                         <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                             <div>
                                 <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">HelpToDev</h3>
@@ -161,7 +161,7 @@ const Work = () => {
 
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
-                        <img src={JsonFormatter} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={JsonFormatter} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
 
                         <div class="absolute right-0 h-full bg-opacity-40 duration-500 ">
                             <div className='text-right'>
@@ -186,7 +186,7 @@ const Work = () => {
 
                 <div className='flex px-24 lg:px-32 lg:py-12 md:py-24 duration-500'>
                     <div className=' flex justify-end relative mt-10'>
-                        <img src={Dashboard} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={Dashboard} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
 
                         <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                             <div>
