@@ -21,7 +21,7 @@ const Main = () => {
   )}&body=${encodeURIComponent(body)}`;
 
   return (
-    <div id="main" className="pt-[75px] h-[100%] text-white bg-[#405855]">
+    <div id="main" className="pt-[75px] h-[100%] md:mb-[180px] text-white bg-[#405855]">
       <div className="sm:px-6 pb-24 md:pb-0 md:h-[90vh]">
         <div
           className={
@@ -79,7 +79,6 @@ const Main = () => {
             >
               <AiOutlineInstagram />
             </a>
-            {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
           </div>
           <div className="flex">
             <a
@@ -90,7 +89,6 @@ const Main = () => {
             >
               <AiOutlineGithub />
             </a>
-            {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
           </div>
           <div className="flex">
             <a
@@ -101,19 +99,16 @@ const Main = () => {
             >
               <AiOutlineLinkedin />
             </a>
-            {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
           </div>
           <div className="flex">
             <h1 className="opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300">
               <AiOutlineFacebook />
             </h1>
-            {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
           </div>
           <div className="flex">
             <h1 className="opacity-[0.8] hover:opacity-[1] hover:shadow-xl duration-300">
               <AiOutlineTwitter />
             </h1>
-            {/* <div className='absolute left-[-50px] top-[10px] bg-[#c0bebe] w-[40px] h-[1px]'></div> */}
           </div>
           <div className="mr-[13px] mb-0 h-[35%] w-[1px] rounded bg-[#c0bebe]"></div>
         </div>

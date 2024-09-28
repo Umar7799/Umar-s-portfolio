@@ -4,7 +4,7 @@ import '../components/Main.css'
 import { AiOutlineInstagram, AiOutlineGithub, AiOutlineLinkedin, AiOutlineFacebook, AiOutlineTwitter } from 'react-icons/ai'
 import { Link } from 'react-scroll'
 import { GetInfo } from '../Contexts/Context'
-import resumePdf from '../ResumeFolder/Abdunosir.pdf'
+import resumePdf from '../Bekhruzs-resume.pdf'
 
 const Navbar = () => {
     const { getSidebarVal } = GetInfo()
