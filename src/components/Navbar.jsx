@@ -61,7 +61,7 @@ const Navbar = () => {
                 <Link to='main' smooth={true} offset={0} duration={500}>
                     <div class="hexagon bg-white">
                         <div class="inner-content bg-[#405855]">
-                            <h1 className='text-2xl font-semibold pt-[2px] sm:pt-0'>U</h1>
+                            <h1 className='text-2xl font-semibold pt-[2px] sm:pt-0'>B</h1>
                         </div>
                     </div>
                 </Link>

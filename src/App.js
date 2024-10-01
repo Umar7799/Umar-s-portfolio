@@ -86,7 +86,7 @@ function App() {
           {/* TOP LOGO*/}
           <div class={movingToTop ? "hexagonDelayingMoving bg-white opacity-0" : "hexagonDelayingMoving bg-white opacity-1 duration-[0.8s] z-[102]"}>
             <div class="inner-contentDelayingMoving bg-[#405855]">
-              <h1 className='text-2xl text-white font-semibold'>U</h1>
+              <h1 className='text-2xl text-white font-semibold'>B</h1>
             </div>
           </div>
 
@@ -94,9 +94,10 @@ function App() {
           <div className={movingToTop ? 'opacity-0' : 'hidden md:block absolute left-[51px] bottom-0 bg-[#c0bebe] w-[1px] rounded duration-[0.1s]'} style={{ height: `${height}px` }}></div>
           <div className={movingToTop ? 'opacity-0' : 'hidden md:block absolute lg:right-[61px] md:right-[46px] bottom-0 bg-[#c0bebe] w-[1px] duration-[0.3s]'} style={{ height: `${height}px` }}></div>
 
+          {/* LANDING */}
           <div class={entering2 ? "hexagonDelaying bg-white mb-8" : "hexagonDelaying bg-black opacity-0 duration-500 mb-8"}>
             <div class="inner-contentDelaying bg-[#405855]">
-              <h1 className='text-3xl text-white font-semibold pt-[10px]'>U</h1>
+              <h1 className='text-3xl text-white font-semibold pt-[10px]'>B</h1>
             </div>
           </div>
         </div>
