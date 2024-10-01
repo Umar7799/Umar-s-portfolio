@@ -352,7 +352,7 @@ const Work = () => {
                     }}
                     className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
                     <div class=" text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">JOSN Formatter</h1>
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">JSON Formatter</h1>
                         <p class="sm:px-5 pt-6">Simple JSON Formatter application. Formatting to JSON and minifying version of that JSON</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
