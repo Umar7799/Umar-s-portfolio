@@ -10,6 +10,8 @@ import { FiExternalLink } from 'react-icons/fi'
 import DynamicTable from '../picss/DynamicTable.png'
 import Pizzeria from '../picss/Pizzeria.png'
 import goFastPic from '../picss/goFastPic.png'
+import royalHouse from '../picss/RoyalHouse.png'
+
 
 const Work = () => {
     const { sidebarVal } = GetInfo()
@@ -27,6 +29,36 @@ const Work = () => {
 
             <div className='hidden md:block'>
                 {/* LAST ADDED */}
+
+                <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
+                    <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
+                        <img alt='Project-Pic' src={royalHouse} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+
+                        <div class="absolute right-0 h-full bg-opacity-40 duration-500">
+                            <div className='text-right'>
+                                <h1 class="text-2xl font-semibold text-white cursor-pointer">Royal House</h1>
+                                <p class="projectCommentRight bg-gradient-to-r from-[#405855]  to-[#447771] p-4 my-4 rounded lg:w-[500px] md:w-[400px]">Royal House is very simple website for local business owner to show newest products. The project has carousel, blurry animations and very easy to navigate</p>
+                            </div>
+
+                            <div>
+                                {/* TECHNOLOGIES */}
+                                <ul className='flex space-x-4 justify-end font-semibold'>
+                                    <li>React</li>
+                                    <li>Tailwindcss</li>
+                                    <li>Javascript</li>
+                                    <li>Css</li>
+                                </ul>
+                                {/* ICONS */}
+                                <ul className='flex justify-end text-2xl space-x-5 pt-4'>
+                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Royal-House' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
+                                    <li><a target="_blank" rel="noreferrer" href='https://royal-house.netlify.app/' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
                         <img alt='Project-Pic' src={goFastPic} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
@@ -217,6 +249,34 @@ const Work = () => {
             <div className='md:hidden  bg-[#405855] duration-500 pb-20'>
 
                 {/* LAST ADDED */}
+
+
+                <div
+                    style={{
+                        backgroundImage: `url(${royalHouse}) `,
+                        backgroundRepeat: 'no-repeat',
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center',
+                    }}
+                    className='projects min-h-[350px] sm:h-auto relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300'>
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 text-white font-bold cursor-pointer">Royal House</h1>
+                        <p class="pt-6">Royal House is very simple website for local business owner to show newest products. The project has carousel, blurry animations and very easy to navigate</p>
+                    </div>
+                    <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
+                        {/* TECHNOLOGIES */}
+                        <ul className='pr-4 text-xs'>
+                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css</p>
+                        </ul>
+                        {/* ICONS */}
+                        <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Royal-House' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://royal-house.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
                 <div
                     style={{
                         backgroundImage: `url(${goFastPic}) `,
