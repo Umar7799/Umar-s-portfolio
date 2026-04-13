@@ -9,8 +9,8 @@ import { AiOutlineGithub } from 'react-icons/ai'
 import { FiExternalLink } from 'react-icons/fi'
 import DynamicTable from '../picss/DynamicTable.png'
 import Pizzeria from '../picss/Pizzeria.png'
-import goFastPic from '../picss/goFastPic.png'
-import royalHouse from '../picss/RoyalHouse.png'
+// import goFastPic from '../picss/goFastPic.png'
+// import royalHouse from '../picss/RoyalHouse.png'
 
 
 const Work = () => {
@@ -29,7 +29,7 @@ const Work = () => {
 
             <div className='hidden md:block'>
                 {/* LAST ADDED */}
-
+                {/*}
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
                         <img alt='Project-Pic' src={royalHouse} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
@@ -41,14 +41,12 @@ const Work = () => {
                             </div>
 
                             <div>
-                                {/* TECHNOLOGIES */}
                                 <ul className='flex space-x-4 justify-end font-semibold'>
                                     <li>React</li>
                                     <li>Tailwindcss</li>
                                     <li>Javascript</li>
                                     <li>Css</li>
                                 </ul>
-                                {/* ICONS */}
                                 <ul className='flex justify-end text-2xl space-x-5 pt-4'>
                                     <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Royal-House' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
                                     <li><a target="_blank" rel="noreferrer" href='https://royal-house.netlify.app/' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
@@ -58,27 +56,23 @@ const Work = () => {
                     </div>
                 </div>
 
+                <div className='flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
+                    <div className=' flex justify-end relative mt-10'>
+                        <img alt='Project-Pic' src={goFastPic} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
 
-                <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
-                    <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
-                        <img alt='Project-Pic' src={goFastPic} className='projectImgLeft cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
-
-                        <div class="absolute right-0 h-full bg-opacity-40 duration-500">
-                            <div className='text-right'>
-                                <h1 class="text-2xl font-semibold text-white cursor-pointer">goFast</h1>
-                                <p class="projectCommentRight bg-gradient-to-r from-[#405855]  to-[#447771] p-4 my-4 rounded lg:w-[500px] md:w-[400px]">goFast is very similar project to Blablacar. But the project is built to run in Uzbekistan -'not in EU'-. It has many pages, sticky navbar, and different side menus</p>
-                            </div>
-
+                        <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                             <div>
-                                {/* TECHNOLOGIES */}
-                                <ul className='flex space-x-4 justify-end font-semibold'>
-                                    <li>React</li>
+                                <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">goFast</h3>
+                                <p class="projectCommentLeft  bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">goFast is very similar project to Blablacar. But the project is built to run in Uzbekistan -'not in EU'-. It has many pages, sticky navbar, and different side menus</p>
+                            </div>
+                            <div>
+                                <ul className='flex space-x-4 break-words font-semibold pl-2'>
+                                <li>React</li>
                                     <li>Tailwindcss</li>
                                     <li>Javascript</li>
                                     <li>Css</li>
                                 </ul>
-                                {/* ICONS */}
-                                <ul className='flex justify-end text-2xl space-x-5 pt-4'>
+                                <ul className='flex text-2xl space-x-5 pl-2 pt-4 '>
                                     <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/goFast' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
                                     <li><a target="_blank" rel="noreferrer" href='https://gofastfirst.netlify.app/' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
                                 </ul>
@@ -86,6 +80,9 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
+    */}
+
 
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
@@ -166,30 +163,33 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className='flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
+                <div className='flex px-24 lg:px-32 lg:py-12 md:py-24 duration-500'>
                     <div className=' flex justify-end relative mt-10'>
-                        <img alt='Project-Pic' src={HelpToDev} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+                        <img alt='Project-Pic' src={Dashboard} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
+
                         <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                             <div>
-                                <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">HelpToDev</h3>
-                                <p class="projectCommentLeft  bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
+                                <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">Dashboard</h3>
+                                <p class="projectCommentLeft bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">React admin dashboard application. Fully mobile responsive and customizable. Six of color themes, toggle between dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
                             </div>
 
                             <div>
                                 <ul className='flex space-x-4 font-semibold pl-2'>
-                                    <li>Javascript</li>
-                                    <li>css</li>
                                     <li>React</li>
                                     <li>Tailwindcss</li>
+                                    <li>Javascript</li>
+                                    <li>Css</li>
                                 </ul>
-                                <ul className='flex text-2xl space-x-5 pl-2 pt-4 '>
-                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/help-to-dev.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
-                                    <li><a target="_blank" rel="noreferrer" href='https://peppy-smakager-545db1.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                                <ul className='flex text-2xl space-x-5 pl-2 pt-4'>
+                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Dashboard-app.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
+                                    <li><a target="_blank" rel="noreferrer" href='https://wonderful-marigold-a4fcc1.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
 
                 <div className='flex px-24 lg:px-32 pb-12 pt-6 duration-500'>
                     <div className='flex relative shadow-xs mt-10 ml-4 lg:ml-0'>
@@ -216,31 +216,33 @@ const Work = () => {
                     </div>
                 </div>
 
-                <div className='flex px-24 lg:px-32 lg:py-12 md:py-24 duration-500'>
+                <div className='flex px-24 lg:px-32 lg:py-12 md:py-20 duration-500'>
                     <div className=' flex justify-end relative mt-10'>
-                        <img alt='Project-Pic' src={Dashboard} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
-
+                        <img alt='Project-Pic' src={HelpToDev} className='projectImgRight cursor-pointer mt-6 lg:mt-2 rounded-md w-[60%] blur-[1px] duration-500' />
                         <div class="absolute left-0 h-full bg-opacity-40 duration-500 ">
                             <div>
-                                <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">Dashboard</h3>
-                                <p class="projectCommentLeft bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">React admin dashboard application. Fully mobile responsive and customizable. Six of color themes, toggle between dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
+                                <h3 class="text-2xl font-semibold pl-2 py-2 cursor-pointer">HelpToDev</h3>
+                                <p class="projectCommentLeft  bg-gradient-to-r from-[#447771]  to-[#405855] shadow-lg p-4 my-4 rounded lg:w-[500px] md:w-[400px]">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
                             </div>
 
                             <div>
                                 <ul className='flex space-x-4 font-semibold pl-2'>
+                                    <li>Javascript</li>
+                                    <li>css</li>
                                     <li>React</li>
                                     <li>Tailwindcss</li>
-                                    <li>Javascript</li>
-                                    <li>Css</li>
                                 </ul>
-                                <ul className='flex text-2xl space-x-5 pl-2 pt-4'>
-                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Dashboard-app.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
-                                    <li><a target="_blank" rel="noreferrer" href='https://wonderful-marigold-a4fcc1.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
+                                <ul className='flex text-2xl space-x-5 pl-2 pt-4 '>
+                                    <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/help-to-dev.git' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><AiOutlineGithub /></a></li>
+                                    <li><a target="_blank" rel="noreferrer" href='https://peppy-smakager-545db1.netlify.app' className='opacity-[0.8] hover:opacity-[1] duration-300 cursor-pointer'><FiExternalLink /></a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+              
             </div>
 
 
@@ -250,7 +252,7 @@ const Work = () => {
 
                 {/* LAST ADDED */}
 
-
+{/*
                 <div
                     style={{
                         backgroundImage: `url(${royalHouse}) `,
@@ -264,11 +266,9 @@ const Work = () => {
                         <p class="pt-6">Royal House is very simple website for local business owner to show newest products. The project has carousel, blurry animations and very easy to navigate</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
-                        {/* TECHNOLOGIES */}
                         <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css</p>
                         </ul>
-                        {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
                             <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Royal-House' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
                             <li><a target="_blank" rel="noreferrer" href='https://royal-house.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
@@ -290,17 +290,17 @@ const Work = () => {
                         <p class="pt-6">goFast is very similar project to Blablacar. But the project is built to run in Uzbekistan -'not in EU'-. It has many pages, sticky navbar, and different side menus</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
-                        {/* TECHNOLOGIES */}
                         <ul className='pr-4 text-xs'>
                             <p>React &nbsp;Tailwindcss &nbsp;JavaScript &nbsp;Css</p>
                         </ul>
-                        {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
                             <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/goFast' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
                             <li><a target="_blank" rel="noreferrer" href='https://gofastfirst.netlify.app/' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
+
+                */}
 
                 <div
                     style={{
@@ -379,28 +379,29 @@ const Work = () => {
 
                 <div
                     style={{
-                        backgroundImage: `url(${HelpToDev}) `,
+                        backgroundImage: `url(${Dashboard}) `,
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
-                    className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">HelpToDev</h1>
-                        <p class="pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
+                    className='projects h-[350px] relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
+                        <p class="pt-6">Admin dashboard application. Fully mobile responsive and customizable. Six of color themes, dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
                         <ul className='pr-4 text-xs'>
-                            <p>JavaScript &nbsp;css &nbsp;React Tailwindcss</p>
+                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript Css</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/help-to-dev.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
-                            <li><a target="_blank" rel="noreferrer" href='https://peppy-smakager-545db1.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Dashboard-app.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://wonderful-marigold-a4fcc1.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
+              
 
                 <div
                     style={{
@@ -428,30 +429,36 @@ const Work = () => {
                     </div>
                 </div>
 
+                
+
+
+
                 <div
                     style={{
-                        backgroundImage: `url(${Dashboard}) `,
+                        backgroundImage: `url(${HelpToDev}) `,
                         backgroundRepeat: 'no-repeat',
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                     }}
-                    className='projects h-[350px] relative font-semibold flex justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
-                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0 hover:backdrop-blur-[2.5px] duration-500">
-                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">Dashboard</h1>
-                        <p class="pt-6">Admin dashboard application. Fully mobile responsive and customizable. Six of color themes, dark and light mode. One dashboard, three pages, four apps and seven fully functional charts</p>
+                    className='projects h-[350px] relative flex font-semibold justify-center shadow-[#1a1d1d] shadow-xs border border-[#405855] rounded-md mx-12 mt-10 duration-300 hover:text-black'>
+                    <div class="absolute text-center px-4 py-2 h-full bg-[#282c2c] bg-opacity-30 backdrop-blur-[3px] rounded drop-shadow-lg  hover:bg-opacity-0  hover:backdrop-blur-[2.5px] duration-500">
+                        <h1 class="text-2xl sm:px-5 pt-4 sm:pt-6 font-bold cursor-pointer">HelpToDev</h1>
+                        <p class="pt-6">helpToDev. To share software engineering problems and solutions. Software developing Community! Similar to Stackoverflow. Fully responsive and customizable</p>
                     </div>
                     <div className='absolute sm:bottom-5 bottom-6 sm:left-8 left-4'>
                         {/* TECHNOLOGIES */}
                         <ul className='pr-4 text-xs'>
-                            <p>React &nbsp;Tailwindcss &nbsp;JavaScript Css</p>
+                            <p>JavaScript &nbsp;css &nbsp;React Tailwindcss</p>
                         </ul>
                         {/* ICONS */}
                         <ul className='flex text-2xl space-x-5 pr-8 pt-4'>
-                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/Dashboard-app.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
-                            <li><a target="_blank" rel="noreferrer" href='https://wonderful-marigold-a4fcc1.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://github.com/Umar7799/help-to-dev.git' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><AiOutlineGithub /></a></li>
+                            <li><a target="_blank" rel="noreferrer" href='https://peppy-smakager-545db1.netlify.app' className='opacity-[0.8] hover:opacity-[1] cursor-pointer duration-300'><FiExternalLink /></a></li>
                         </ul>
                     </div>
                 </div>
+
+
             </div>
 
         </div>
